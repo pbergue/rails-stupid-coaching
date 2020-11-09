@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>BEST COACHING EVER</h1>
+  <br>
+  <div class="question">
+    <h2> <%= params[:question] %> </h2>
+    <p>- You</p>
+  </div>
+  <br>
+  <div class="answer">
+    <h2><%= @answer %></h2>
+    <p>- Your best coach</p>
+  </div>
+  <br><br>
+  <div class="link">
+    <%= link_to "Ask a new question", "/ask" %>
+  </div>
+</div>
